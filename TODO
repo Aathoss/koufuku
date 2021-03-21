@@ -1,0 +1,17 @@
+'Alt+Enter' // Ajoute un todo
+'Alt+D' // Termine une todo
+'Alt+C' // Annule une todo
+'Alt+S' // Début une todo
+
+Koufuku feature:
+  ✔ Mise en place du bot discord @done(21-03-19 20:34)
+  ✔ add commande !instagram @done(21-03-19 20:34)
+  ✔ add commande !discord @done(21-03-19 20:34)
+  ✔ add commande !twitch @done(21-03-19 20:34)
+  ✔ add commande !facebook @done(21-03-19 20:34)
+  ☐ Ajoute d'un !help
+  ✔ Logs les message envoyer sûr discord @done(21-03-20 17:21)
+  ✔ Ajoute d'un système de lvl sûr le discord @done(21-03-20 17:22)
+  ☐ Ajoute d'un système de ticket
+  ☐ Ajoute un système de sauvegarde des ticket
+  ☐ Ajoute d'un top 10 des meilleurs level

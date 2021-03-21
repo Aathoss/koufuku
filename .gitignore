@@ -1,12 +1,13 @@
-# Binaries for programs and plugins
-*.exe
-*.exe~
-*.dll
-*.so
-*.dylib
+# Fichiers
+config.yml
+Gopkg.toml
+Gopkg.lock
+logs.log
 
-# Test binary, build with `go test -c`
-*.test
+# Dossiers
+vendor
+.vendor-new
 
-# Output of the go coverage tool, specifically when used with LiteIDE
-*.out
+# Executables
+main
+main.exe
