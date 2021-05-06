@@ -38,5 +38,5 @@ func GuildMemberAdd(s *discordgo.Session, join *discordgo.GuildMemberAdd) {
 		SetDescription("Bienvenue sur le discord **Koufuku_Shop**, \n\nMerci de bien vouloir vous respecter les un, les autres !\nÊtre conviviale et poli.").MessageEmbed
 
 	s.ChannelMessageSendEmbed(viper.GetString("ChannelID.Trafic"), embed)
-	framework.LogsChannel(":inbox_tray: [**" + strconv.Itoa(countMembers.MemberCount) + "**] **" + join.User.Username + "** Viens de nous rejoindre.")
+	framework.LogsChannel("_" + join.User.ID + "_ :inbox_tray: [**" + strconv.Itoa(countMembers.MemberCount) + "**] **" + join.User.Mention() + "** Viens de nous rejoindre.")
 }

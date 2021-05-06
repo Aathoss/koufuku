@@ -15,3 +15,4 @@ Koufuku feature:
   ☐ Ajoute d'un système de ticket
   ☐ Ajoute un système de sauvegarde des ticket
   ☐ Ajoute d'un top 10 des meilleurs level
+  ☐ Ajoute d'un système de rôle automatique modifiable dans la config (grade / degrade) + base de données pour des stats

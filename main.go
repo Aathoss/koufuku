@@ -145,4 +145,5 @@ func commandHandler(s *bot.Session, m *bot.MessageCreate) {
 
 func registerCommands() {
 	CmdHandler.Register("info", []string{"insta", "instagram", "facebook", "twitch", "tiktok", "discord", "informations"}, 0, command.Informations, "Message d'informations contenant les divers réseaux sociaux")
+	//	CmdHandler.Register("raid", []string{}, 1, command.raid, "Vérifie / ou supprime les membre données")
 }
